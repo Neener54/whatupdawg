@@ -1,4 +1,6 @@
 class LoginController < ApplicationController
 
-  def index;end
+  def index
+    @session = Session.new
+  end
 end
